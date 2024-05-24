@@ -1,15 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevJane Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello, I am <strong>Buhlebenkosi Bawuti</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="IMG_E2635.JPG"
+        alt="A picture of Buhle smiling"
+        class="intro__img"
+      />
+    </section>
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="Service">
+          <h3>Software Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod porro
+            est mollitia quibusdam quasi quaerat veniam voluptatem, non
+            assumenda, maiores fugit ipsam temporibus iusto dolorum esse
+            architecto nisi aliquid omnis. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Accusantium non id, mollitia voluptate
+            assumenda autem aliquam labore natus libero dolore! Provident dolor
+            dolores sed quod. Quam ut ipsa incidunt quia? Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Provident nisi, adipisci
+            reiciendis laborum, autem cum sequi eius iure animi repellat
+            voluptatem blanditiis voluptatibus laudantium atque obcaecati alias
+            nobis excepturi architecto!
+          </p>
+        </div>
+        <!--/service-->
+        <div class="Service">
+          <h3>Cybersecurity</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+            dicta nesciunt delectus temporibus blanditiis harum nemo accusamus
+            amet ducimus? Nihil sunt illum suscipit ad exercitationem, ipsa
+            recusandae sed ipsam fuga? Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Praesentium saepe quaerat enim placeat assumenda,
+            nobis fugit distinctio eveniet quam hic in temporibus, officia qui
+            maxime autem impedit deserunt possimus. Adipisci? Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Iusto cumque ullam illo, sunt
+            doloribus unde sapiente nulla labore doloremque tempora eligendi
+            quam ut! Quod enim assumenda pariatur est earum odit.
+          </p>
+        </div>
+        <!--/service-->
+        <div class="Service">
+          <h3>Full Stack Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perferendis debitis accusamus et nam veritatis dignissimos, rem,
+            commodi ducimus aspernatur quibusdam illo deleniti, fuga corporis
+            cum? Necessitatibus architecto alias aspernatur tenetur! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Eum quasi, cupiditate
+            incidunt similique, fugiat ab recusandae eius modi voluptatum
+            deserunt temporibus iste assumenda nulla optio dolorem provident
+            quia debitis perspiciatis. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nesciunt culpa hic aspernatur nostrum ea.
+            Praesentium accusamus earum at qui, nostrum delectus, quas id
+            impedit et libero deleniti debitis, quisquam hic?
+          </p>
+        </div>
+        <!--/service-->
+      </div>
 
+      <a href="#Work" class="btn">My Work</a>
+    </section>
 
-    </head>
-    <body>
-        
-    </body>
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        I am a Developer and Specilize in Cybersecurity and I am based in South
+        Africa.
+      </p>
+
+      <div class="about--me__body">
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+
+      <img src="IMG_E2639.JPG" alt="Buhle leaning on the wall" />
+    </section>
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle">Here are my range of works</p>
+
+      <div class="portfolio">
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.FSnIH0GqALmCfggrAATiAgAAAA?w=232&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.grV1kZdWGon0x91Izp69VwHaEK?w=89&h=89&c=1&rs=1&qlt=90&r=0&pid=InlineBlock"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.eQIOWpegAWmzsOhzFEJ5-QHaEK?w=268&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.ESb1gwQZ8Ki5X_JDNlZ3_QHaD_?w=328&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.uUgt8weG8i-8iQ49xA4SpgHaFj?w=272&h=204&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.htFAoTN5sjl_MeBPGb81HQHaEK?w=328&h=184&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.w7xu1ZBvm19hlI9doJ780gAAAA?w=277&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.JQKie4DVVBEmmdswM6c8JwHaEK?w=329&h=185&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.HsGT922AotXw8Xi0uTBiPQHaE8?w=210&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--Portfolio item 01-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="https://th.bing.com/th/id/OIP.gYmWwyG57IpjCiaGfDPiKwHaFj?w=233&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="buhlebawuti44@gmail.com" class="footer__link"
+        >buhlebawuti44@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com">
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
 </html>
